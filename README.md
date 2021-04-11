@@ -5,5 +5,5 @@ Created commands that add, remove, list, or read notes.
 
 *code contains notes*
 
-###Demo:
+### Demo:
 ![an example of the app being used in the command line](example.png)
