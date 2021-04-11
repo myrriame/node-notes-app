@@ -32,7 +32,6 @@ const addNote = function (title, body) {
     }
 }
 
-
 // saving to json file, takes in notes array(which is the notes.json file but are JS objects in an array)
 // stringifies it and then saves that to the notes.json file without overriding the previous data but appending it
 const saveNotes = function (notes) {
