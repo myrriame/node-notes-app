@@ -14,6 +14,8 @@ yargs.version('1.1.0')
 // builder is used to give the command options to support, title and body are the options to add a note
 // the demandOption and type ensures that the title and body are passed with the command and that they come up as strings not booleans
 // if there isn't a title or a body the command wont run
+
+// how to use add command: node app.js add --title="title name" --body="body content"
 yargs.command({
     command: 'add',
     describe: 'Add a new note',
@@ -40,6 +42,7 @@ yargs.command({
 })
 
 // create remove command
+// how to use remove command: node app.js remove --title="title name"
 yargs.command({
     command: 'remove',
     describe: 'Remove a note',
@@ -56,6 +59,7 @@ yargs.command({
 })
 
 // read note command
+// how to use read command: node app.js read --title="title name"
 yargs.command({
     command: 'read',
     describe: 'Reading your note',
@@ -73,6 +77,7 @@ yargs.command({
 })
 
 // list note command
+// how to use list command: node app.js list
 yargs.command({
     command: 'list',
     describe: 'Listing your notes',
