@@ -121,6 +121,9 @@ const readNote = function (title) {
     }
 }
 
+
+
+
 // exports functions to be used in app.js file ex. notes.addNote()
 module.exports = {
 
